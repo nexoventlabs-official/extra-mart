@@ -119,22 +119,12 @@ export const Header = () => {
               <Menu className="w-6 h-6" />
             </button>
 
-            {/* Extra Mart Brand Logo */}
+            {/* EXTRA MART Brand Logo */}
             <div className="flex items-center gap-4 shrink-0">
-              <Link to="/" className="flex flex-col items-start leading-none group">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-xl sm:text-2xl font-black italic tracking-wide text-white drop-shadow-sm font-sans">
-                    Extra<span className="text-brand-yellow font-black">Mart</span>
-                  </span>
-                  <span className="bg-brand-yellow text-brand-primary text-[10px] font-black px-1.5 py-0.5 rounded italic">
-                    SUPER
-                  </span>
-                </div>
-                <div className="flex items-center gap-1 text-[11px] text-gray-200 italic font-medium group-hover:text-amber-200 transition-colors mt-0.5">
-                  <span>Explore</span>
-                  <span className="text-brand-yellow font-bold">Plus</span>
-                  <Sparkles className="w-2.5 h-2.5 text-brand-yellow inline" />
-                </div>
+              <Link to="/" className="flex items-center group">
+                <span className="text-xl sm:text-2xl font-black tracking-wider text-white drop-shadow-sm font-sans">
+                  EXTRA <span className="text-brand-yellow font-black">MART</span>
+                </span>
               </Link>
 
               {/* Delivery Pincode Selector */}
@@ -363,9 +353,10 @@ export const Header = () => {
           <div className="md:hidden fixed inset-0 z-50 bg-black/60 flex animate-fade-in">
             <div className="bg-white w-4/5 max-w-sm h-full overflow-y-auto p-4 space-y-4">
               <div className="flex items-center justify-between border-b pb-3">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-xl font-black italic text-brand-primary">Extra<span className="text-amber-500">Mart</span></span>
-                  <span className="text-xs bg-brand-primary text-white font-bold px-1.5 py-0.5 rounded">Supermarket</span>
+                <div className="flex items-center">
+                  <span className="text-xl font-black tracking-wider text-brand-primary">
+                    EXTRA <span className="text-brand-yellow">MART</span>
+                  </span>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}

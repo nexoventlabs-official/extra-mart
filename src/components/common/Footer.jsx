@@ -178,9 +178,9 @@ export const Footer = () => {
             </Link>
           </div>
 
-          {/* Copyright & Website */}
+          {/* Copyright */}
           <div className="text-center md:text-right text-gray-400 text-xs">
-            <span>© 2026 Extra Mart (<span className="text-white font-medium">extramart.online</span>). All rights reserved.</span>
+            <span>© 2026 EXTRA MART. All rights reserved.</span>
           </div>
 
           {/* Payment Badges */}
