@@ -119,11 +119,11 @@ export const Header = () => {
               <Menu className="w-6 h-6" />
             </button>
 
-            {/* EXTRA MART Brand Logo */}
+            {/* Extra Mart Brand Logo */}
             <div className="flex items-center gap-4 shrink-0">
               <Link to="/" className="flex items-center group">
-                <span className="text-xl sm:text-2xl font-black tracking-wider text-white drop-shadow-sm font-sans">
-                  EXTRA <span className="text-brand-yellow font-black">MART</span>
+                <span className="text-xl sm:text-2xl font-black tracking-wide text-white drop-shadow-sm font-sans">
+                  Extra <span className="text-brand-yellow font-black">Mart</span>
                 </span>
               </Link>
 
@@ -354,8 +354,8 @@ export const Header = () => {
             <div className="bg-white w-4/5 max-w-sm h-full overflow-y-auto p-4 space-y-4">
               <div className="flex items-center justify-between border-b pb-3">
                 <div className="flex items-center">
-                  <span className="text-xl font-black tracking-wider text-brand-primary">
-                    EXTRA <span className="text-brand-yellow">MART</span>
+                  <span className="text-xl font-black tracking-wide text-brand-primary">
+                    Extra <span className="text-brand-yellow">Mart</span>
                   </span>
                 </div>
                 <button

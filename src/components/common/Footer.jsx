@@ -180,7 +180,7 @@ export const Footer = () => {
 
           {/* Copyright */}
           <div className="text-center md:text-right text-gray-400 text-xs">
-            <span>© 2026 EXTRA MART. All rights reserved.</span>
+            <span>© 2026 Extra Mart. All rights reserved.</span>
           </div>
 
           {/* Payment Badges */}
